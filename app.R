@@ -21,7 +21,7 @@ ui <- fluidPage(
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
         sidebarPanel(
-            helpText("Select the sample size, i.e., how many times a coin is flipped, and the probability of showing a head"),
+            helpText("The experiment is to flip a coin a number of times; we repeat this experiment 10,000 times, and plot the histogram of Xbar. Select the sample size, i.e., how many times a coin is flipped, and the probability of showing a head"),
             sliderInput("n",
                         "Number of flips:",
                         min = 0,
